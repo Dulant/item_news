@@ -1,0 +1,54 @@
+.content_item {
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.bgc-9 {
+    background-color: #ffffff;
+}
+.content_item .content_main {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 10px 0;
+    position: relative;
+}
+.borderc-6 {
+    border-color: #eeeeee;
+}
+.content_item.news_mulpic .content_main .title {
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    word-break: break-all;
+}
+
+.content_item.news_mulpic .content_main .img_list {
+    display: -webkit-box;
+    margin-top: 10px;
+}
+.content_item.news_mulpic .content_main .img_list .item {
+    width: 110px;
+    height: 70px;
+    margin-right: 5px;
+    background: #eee;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.content_item.news_mulpic .content_main .img_list .imageOne{
+
+    background-image: url(http://p5.qhimg.com/dmfd/225_128_60/t017c2506424b0cb385.jpg?size=600x720)
+}
+.content_item.news_mulpic .content_main .img_list .imageTwo{
+
+    background-image: url(http://p3.qhimg.com/dmfd/225_128_60/t01108f0029026686b0.jpg?size=658x790)
+}
+.content_item.news_mulpic .content_main .img_list .imageThree{
+
+    background-image: url(http://p9.qhimg.com/dmfd/225_128_60/t013f2cbd65b93d5033.jpg?size=500x415)
+}

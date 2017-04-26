@@ -1,0 +1,110 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -webkit-text-size-adjust: 100% !important;
+}
+body {
+    line-height: 1.2;
+    font-family: Arial,Helvetica,sans-serif, "Microsoft YaHei";
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.bgc-9 {
+    background-color: #ffffff;
+}
+.borderc-6 {
+    border-color: #eeeeee;
+}
+[data-dpr="2"] .font2_const, [data-dpr="2"] .font2_c_const {
+    font-size: 36px;
+}
+.font2_const, .font2_c_const {
+    font-size: 18px;
+}
+.color-2 {
+    color: #333333;
+}
+[data-dpr="2"] .font6_const, [data-dpr="2"] .font6_c_const {
+    font-size: 24px;
+}
+.font6_const, .font6_c_const {
+    font-size: 12px;
+}
+.color-4 {
+    color: #999999;
+}
+[data-dpr="2"] .font8_const, [data-dpr="2"] .font8_c_const {
+    font-size: 20px;
+}
+.font8_const, .font8_c_const {
+    font-size: 10px;
+}
+.color-9 {
+    color: #ffffff;
+}
+.xs-container{
+    margin-top:40px;
+    border-top: 1px solid #999;
+}
+
+/*导航栏*/
+.item-news {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+}
+.item-news #nav-wrapper{
+    height: 40px;
+    overflow: hidden;
+    font-size: 18px;
+}
+.item-news .nav-list{
+    list-style: none;
+    background-color: #fff;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.nav-list li{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 40px;
+    height: 40px;
+    color:#666;
+}
+.item-list {
+    padding: 10px;
+    padding-top:75px;
+}
+
+
+/*
+加载更多*/
+.main .loading-status {
+    width:100%;
+    height: 40px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    text-align: center;
+}

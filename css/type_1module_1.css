@@ -1,0 +1,57 @@
+.content_item {
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content_item.common .content_main {
+    display: -webkit-box;
+    -webkit-box-align: start;
+}
+
+.content_item .content_main {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 10px 0;
+    position: relative;
+}
+.content_item.common .content_main .info {
+    -webkit-box-flex: 1;
+    position: relative;
+    overflow: hidden;
+    height: 70px;
+}
+.content_item.common .content_main .info .title {
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    display: -webkit-box;
+    word-break: break-all;
+}
+
+.content_item.common .content_main .info .tips {
+    margin-top: 0;
+    display: -webkit-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.content_item.common .content_main .info .tips .tip {
+    margin-right: 10px;
+}
+.content_item.common .content_main .img {
+    width: 120px;
+    height: 70px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #eee;
+    margin-left: 10px;
+    position: relative;
+    background-image: url(http://p7.qhimg.com/dmfd/225_128_60/t019f9ee055d675c9f7.jpg?size=400x533+);
+}
+

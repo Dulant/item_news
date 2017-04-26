@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>type_3module_3</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+        * {
+            -webkit-tap-highlight-color: transparent;
+            outline: none;
+            -webkit-text-size-adjust: 100% !important;
+        }
+        body {
+            line-height: 1.2;
+            font-family: Arial,Helvetica,sans-serif, "Microsoft YaHei";
+        }
+        .content_item {
+            padding: 0 0.53333rem;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .bgc-9 {
+            background-color: #ffffff;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        a {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+        * {
+            -webkit-tap-highlight-color: transparent;
+            outline: none;
+            -webkit-text-size-adjust: 100% !important;
+        }
+        .content_item .content_main {
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            padding: 0.64rem 0;
+            position: relative;
+        }
+        .borderc-6 {
+            border-color: #eeeeee;
+        }
+        .content_item.m-3 .content_main .pic {
+            position: relative;
+            height: 200px;
+            background-color: #eee;
+            background-size: cover;
+            background-position: center center;
+            background-image: url(http://p5.qhimg.com/dmfd/700_395_60/t011eb12aadabf9893a.jpg?size=640x360);
+        }
+        .content_item.m-3 .content_main .pic .bottom {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            left: 0;
+            padding: 0 0.53333rem;
+            background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+            background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3));
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3));
+            display: -webkit-box;
+            -webkit-box-align: center;
+            box-sizing: border-box;
+        }
+        .content_item.m-3 .content_main .pic .bottom .word {
+            width: 100%;
+        }
+        .content_item.m-3 .content_main .pic .bottom .word .desc, .content_item.m-3 .content_main .pic .bottom .word .title-word {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+            -moz-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            white-space: nowrap;
+            display: block;
+            line-height: 1.2;
+        }
+        [data-dpr="2"] .font2_const, [data-dpr="2"] .font2_c_const {
+            font-size: 36px;
+        }
+        .font2_const, .font2_c_const {
+            font-size: 18px;
+        }
+        .color-9 {
+            color: #ffffff;
+        }
+        .content_item.m-3 .content_main .pic .bottom .word .tips {
+            margin-top: 0.21333rem;
+            display: -webkit-box;
+        }
+        [data-dpr="2"] .font6_const, [data-dpr="2"] .font6_c_const {
+            font-size: 24px;
+        }
+        .font6_const, .font6_c_const {
+            font-size: 12px;
+        }
+        .color-6 {
+            color: #eeeeee;
+        }
+        .content_item.m-3 .content_main .pic .bottom .word .tips .tip {
+            margin-right: 0.32rem;
+        }
+        .content_item.m-3 .content_main .pic .play-icon {
+            width: 40px;
+            height: 40px;
+            background-image: url(../images/play.png);
+            background-size: 100% 100%;
+            background-position: center center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -0.896rem;
+            margin-left: -0.896rem;
+        }
+        .content_item.m-3.tmpl_video .pic > .tip {
+            padding: 0.128rem 0.17067rem 0.04267rem;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .content_item.m-3 .content_main .pic > .tip {
+            padding: 0.08533rem 0.17067rem;
+            border-radius: 0.08533rem;
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+        }
+        [data-dpr="2"] .font8_const, [data-dpr="2"] .font8_c_const {
+            font-size: 20px;
+        }
+        .font8_const, .font8_c_const {
+            font-size: 10px;
+        }
+        .color-9 {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div class="content_item bgc-9 m-3 tmpl_video">
+    <a href="#">
+        <div class="content_main borderc-6">
+            <div class="pic" style="background-image: url(http://p5.qhimg.com/dmfd/700_395_60/t011eb12aadabf9893a.jpg?size=640x360)">
+                <div class="bottom">
+                    <div class="word">
+                        <div class="title-word color-9 font2_const">二年级男孩带警察把妈妈近4万元现金"抢"了</div>
+                        <div class="tips font6_const color-6">
+                            <div class="tip">24小时</div>
+                            <div class="tip">6小时前</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="play-icon"></div>
+                <div class="tip border-9 font8_const color-9">01:42</div>
+            </div>
+        </div>
+    </a>
+</div>
+</body>
+</html>

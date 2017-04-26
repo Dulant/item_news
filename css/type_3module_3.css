@@ -1,0 +1,79 @@
+.content_item {
+    padding: 0 0.53333rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content_item .content_main {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 0.64rem 0;
+    position: relative;
+}
+.content_item.m-3 .content_main .pic {
+    position: relative;
+    height: 200px;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(http://p5.qhimg.com/dmfd/700_395_60/t011eb12aadabf9893a.jpg?size=640x360);
+}
+.content_item.m-3 .content_main .pic .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    padding: 0 0.53333rem;
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3));
+    display: -webkit-box;
+    -webkit-box-align: center;
+    box-sizing: border-box;
+}
+.content_item.m-3 .content_main .pic .bottom .word {
+    width: 100%;
+}
+.content_item.m-3 .content_main .pic .bottom .word .desc, .content_item.m-3 .content_main .pic .bottom .word .title-word {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -moz-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    white-space: nowrap;
+    display: block;
+    line-height: 1.2;
+}
+
+.content_item.m-3 .content_main .pic .bottom .word .tips {
+    margin-top: 0.21333rem;
+    display: -webkit-box;
+}
+.content_item.m-3 .content_main .pic .bottom .word .tips .tip {
+    margin-right: 0.32rem;
+}
+.content_item.m-3 .content_main .pic .play-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/play.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.896rem;
+    margin-left: -0.896rem;
+}
+.content_item.m-3.tmpl_video .pic > .tip {
+    padding: 0.128rem 0.17067rem 0.04267rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content_item.m-3 .content_main .pic > .tip {
+    padding: 0.08533rem 0.17067rem;
+    border-radius: 0.08533rem;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
